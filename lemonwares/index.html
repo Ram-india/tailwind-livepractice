@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lemon wares</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: "#B00000",
+            },
+          },
+        },
+      };
+    </script>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <!-- nav bar -->
+    <nav class="bg-white font-bold">
+      <div class="flex justify-between items-center mx-auto p-4 container">
+        <div class="logo">
+          <a href="#">
+            <img src="./public/logo.png" alt="Logo" />
+          </a>
+        </div>
+        <div class="flex flex-grow justify-center space-x-6">
+          <a href="#" class="border-primary border-b-2">Our Services</a>
+          <a href="#">About</a>
+          <a href="#">Blog & News</a>
+          <a href="#">Contact</a>
+        </div>
+        <div class="flex flex-shrink-0 space-x-4">
+          <a href="#">Account</a>
+          <div class="border-gray-300 border-r-2"></div>
+          <div class="flex flex-center space-x-2">
+            <img src="./public/icons/phone.svg" alt="" />
+            <a href="tel:987654321"> 918877665</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- nav bar -->
+    <!-- Hero section -->
+    <div class="flex mx-auto p-4 container" id="hero">
+      <div class="left p-8 w-full">
+        <div class="flex justify-evenly border-b-2 font-semibold menu">
+          <a href="#" class="border-primary border-b-2 text-primary">Hosting</a>
+          <a href="#" class="text-slate-200">Domain</a>
+          <a href="#" class="text-slate-200">Seo</a>
+          <a href="#" class="text-slate-200">Email</a>
+        </div>
+        <h1 class="text-xl">True Cloud Web  Hosting</h1>
+
+
+      </div>
+      <div class="relative right p-8 w-full">
+        <div class="right-4 bottom-16 absolute w-16 h-16 triangle"></div>
+        <div class="top-16 right-4 absolute w-10 h-10 triangle"></div>
+        <div class="left-4 absolute inset-2/3 w-10 h-10 inverted-triangle"></div>
+        <img src="./public/hero-img.png" class="w-full height-auto object-cover" alt="">
+      </div>
+
+    </div>
+    <!-- Hero section end -->
+    <div id="why-us" class="mx-auto p-4 container">
+      <div class="flex flex-row flex-nowrap">
+      <div class="w-1/2">
+        <h1 class="py-4 font-semibold text-5xl" >True Cloud Web  Hosting</h1>
+        <p class="py-8 text-left leading-10">True Cloud Web Hosting All of the hosting packages we offer are deployed instantly on our SSD powered cloud. We don’t use dedicated servers that operate on single pieces of hardware. Our entire infrastructure is built to be reliable, secure, and scalable.</p>
+      </div>
+      <div class="w-1/2">right</div>
+    </div>
+      <div></div>
+
+    </div>
+  </body>
+</html>
